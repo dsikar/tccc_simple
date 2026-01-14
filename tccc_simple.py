@@ -174,7 +174,7 @@ Provide immediate TCCC field guidance:"""
                         "temperature": 0.2
                     }
                 },
-                timeout=30
+                timeout=60
             )
             
             if response.status_code == 200:
